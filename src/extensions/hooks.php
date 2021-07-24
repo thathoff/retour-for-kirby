@@ -10,7 +10,7 @@ return [
         Route $route,
         string $path,
         string $method,
-        string $result = null,
+        $result = null,
         bool $final
     ) {
         if ($final === true && empty($result) === true) {
